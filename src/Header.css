@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.homeLogo {
+    width: 100%;
+}
+
+.homeNav {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.homeNav > ul {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;    
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+}
